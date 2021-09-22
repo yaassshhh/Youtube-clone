@@ -91,6 +91,10 @@ nav{
   top: 0;
   padding-top: 80px;
   padding-left: 2%;
+  overflow-y: scroll;
+}
+.sidebar::-webkit-scrollbar{
+  display: none;
 }
 .shortcut-links a img{
   width: 20px;
